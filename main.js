@@ -1,7 +1,9 @@
 const app = Vue.createApp({
-    data: function () { 
+    data() {
         return {
-            product: 'Socks'
+            product: 'Socks',
+            image: './assets/images/socks_green.jpg',
+            url: 'https://github.com/ktsim88/5.05-Vue-Mastery-Tutorial'
         }
     }
 })
